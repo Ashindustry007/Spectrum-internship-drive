@@ -9,6 +9,8 @@ For selection of features I used Univariate selection method called SelectKBest 
 I iterated the no. of features to be drop from the sorted nlargest to check the best fit. So I dropped 34 features from down.
 
 The best features to be considered are ['failures', 'schoolsup', 'absences', 'G1', 'G2']
+
 RMSE =  1.5207162780902819
+
 r2.score =  97.9933469627282 (with a random state of 101)
 
